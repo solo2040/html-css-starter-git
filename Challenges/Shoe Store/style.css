@@ -43,7 +43,7 @@ body {
 
 .details-title {
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -72,16 +72,46 @@ body {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
+.colors {
+  padding-top: 20px;
+}
+.color-boxes {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.black-color {
+  background-color: #000;
+}
+.blue-color {
+  background-color: blue;
+}
+.red-color {
+  background-color: red;
+}
+.yellow-color {
+  background-color: yellow;
+}
+.green-color {
+  background-color: greenyellow;
+}
+.brown-color {
+  background-color: brown;
+}
 article {
   position: relative;
 }
 article::before {
   content: "SALE";
+  letter-spacing: 2px;
   position: absolute;
+  font-weight: bold;
   background-color: red;
   color: white;
   font-size: 14px;
   display: inline-block;
   padding: 2px 14px;
-  top: 10px;
+  top: -15px;
+  left: -40px;
 }
