@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   line-height: 1.7;
@@ -22,6 +23,7 @@ body {
 
 .product-price {
   font-size: 24px;
+  float: left;
 }
 
 .shipping-details {
@@ -30,6 +32,11 @@ body {
   color: grey;
   font-size: 12px;
   margin-bottom: 20px;
+  margin-top: 10px;
+  float: right;
+}
+.product-description {
+  clear: both;
 }
 .more-info:link,
 .more-info:visited {
@@ -43,8 +50,8 @@ body {
 
 .details-title {
   text-transform: uppercase;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .details-list {
@@ -76,8 +83,8 @@ body {
   padding-top: 20px;
 }
 .color-boxes {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   display: inline-block;
   margin-right: 15px;
 }
@@ -114,4 +121,21 @@ article::before {
   padding: 2px 14px;
   top: -15px;
   left: -40px;
+}
+
+.product-image {
+  float: left;
+}
+
+.product-details-pt1 {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.product-details-pt2 {
+  float: right;
+  width: 240px;
+  margin-left: 40px;
 }
